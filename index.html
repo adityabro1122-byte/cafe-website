@@ -1,4 +1,77 @@
 <!DOCTYPE html>
+<html>
+<head>
+    <title>Royal Cafe</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #2c1b12;
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background: #3e2723;
+            font-size: 24px;
+        }
+
+        .hero {
+            padding: 60px;
+            animation: fadeIn 2s;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: #4e342e;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            width: 200px;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.1);
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity: 1;}
+        }
+    </style>
+</head>
+
+<body>
+
+<header>☕ Royal Cafe</header>
+
+<div class="hero">
+    <h1>Welcome to Our Cafe</h1>
+    <p>Fresh Coffee | Tasty Snacks</p>
+</div>
+
+<h2>Our Menu</h2>
+
+<div class="menu">
+    <div class="card">Coffee - ₹100</div>
+    <div class="card">Tea - ₹50</div>
+    <div class="card">Burger - ₹150</div>
+    <div class="card">Pizza - ₹200</div>
+</div>
+
+</body>
+</html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
